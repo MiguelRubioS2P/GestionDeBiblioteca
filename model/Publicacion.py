@@ -20,12 +20,27 @@ class Publicacion():
 
     # Metodo para visualizar el objeto
     def visualitzar(self):
-        print self.referencia
-        print self.titol
+        """
+        Visualizar la informacion del objeto
+
+        :return: String con la informacion del objeto
+        """
+        print "{} {}".format(self.referencia,self.titol)
 
     # Bloque de sobrescritura de metodos
     def __str__(self):
-        return self.referencia
+        """
+        Para hacer un print controlado de nuestro objeto
+
+        :return: Un string con solo la referencia del objeto
+        """
+        return "{}".format(self.referencia)
 
     def __eq__(self, other):
+        """
+        Comparamos la referencia del objeto directamente con una referencia
+
+        :param other: una referencia
+        :return: True o False
+        """
         return self.referencia == other

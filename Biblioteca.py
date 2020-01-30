@@ -4,6 +4,7 @@ class Biblioteca():
     # conocer la capacidad de la biblioteca (listo)
     # conocer el numero de elementos que tiene la biblioteca (listo)
     # introducir una publicacion (listo)
+    # buscar una publicacion por su referencia (listo)
     # mostrar una publicacion por su referencia (listo)
     # visualizar el contenido de la biblioteca (listo)
 
@@ -21,11 +22,16 @@ class Biblioteca():
     def introducir_publicacion(self,publicacion):
         self.publicaciones.append(publicacion)
 
+    def buscar_publicacion(self,referencia):
+        for p in self.publicaciones:
+            if(p == referencia):
+                return p
+        return "No"
+
     def mostrar_publicacion(self,referencia):
         for p in self.publicaciones:
-            if(p==referencia):
-                return p
-        return "No hemos tenido coincidencias"
+            if(p == referencia):
+                print p.visualitzar()
 
     def visualitzar(self):
         for p in self.publicaciones:

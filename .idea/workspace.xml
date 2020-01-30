@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5dadacb-4266-4bfd-852f-ae143d94f17f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GestionDeBiblioteca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GestionDeBiblioteca.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Obra.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Obra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Publicacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Publicacion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Revista.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Revista.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Volum.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Volum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +32,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeBreaker" />
+    <property name="last_opened_file_path" value="E:/Asignaturas/sistemas_de_gestion_empresarial/Proyectos/EjercicioDeFunciones" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580315933722</updated>
       <workItem from="1580315934936" duration="5086000" />
+      <workItem from="1580376697024" duration="6719000" />
     </task>
     <servers />
   </component>
@@ -62,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

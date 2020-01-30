@@ -2,8 +2,8 @@ from model.Obra import Obra
 
 
 class Volum(Obra):
-    def __init__(self,nro):
-        Obra.__init__(self)
+    def __init__(self,referencia,titol,autor,nrePags,nro):
+        Obra.__init__(self,referencia,titol,autor,nrePags)
         self.nro = nro
 
     def get_nro(self):
@@ -13,5 +13,4 @@ class Volum(Obra):
         self.nro = nro
 
     def visualitzar(self):
-        Obra.visualitzar(self)
-        print self.nro
+        print "{} {} {} {} {}".format(self.referencia,self.titol,self.autor,self.nrePags,self.nro)
