@@ -31,7 +31,7 @@ while not (run):
         if(publicacion == "No"):
             print "No se ha podido encontrar"
         else:
-            print publicacion.visualitzar()
+            publicacion.visualitzar()
     if(pregunta == 5):
         biblioteca.visualitzar()
     if(pregunta == 6):

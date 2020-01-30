@@ -31,8 +31,8 @@ class Biblioteca():
     def mostrar_publicacion(self,referencia):
         for p in self.publicaciones:
             if(p == referencia):
-                print p.visualitzar()
+                p.visualitzar()
 
     def visualitzar(self):
         for p in self.publicaciones:
-            print p.visualitzar()
+            p.visualitzar()
