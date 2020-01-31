@@ -50,7 +50,7 @@ class Publicacion():
         """
         Visualizar la informacion del objeto
 
-        :return: String con la informacion del objeto
+        :return: Nada
         """
         print "{} {}".format(self.referencia,self.titol)
 

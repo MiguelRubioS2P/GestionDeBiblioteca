@@ -28,7 +28,7 @@ class Volum(Obra):
         Setter del atributo de nro
 
         :param nro: Nuevo valor para el atributo nro
-        :return:
+        :return: Nada
         """
         self.nro = nro
 
@@ -36,6 +36,6 @@ class Volum(Obra):
         """
         Metodo para visualizar toda la informacion del objeto Volum
         
-        :return: String de la informacion del objeto Volum
+        :return: Nada
         """
         print "{} {} {} {} {}".format(self.referencia,self.titol,self.autor,self.nrePags,self.nro)

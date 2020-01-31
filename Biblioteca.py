@@ -1,4 +1,6 @@
 class Biblioteca():
+    # No se debe poder agregar dos publicaciones con la misma referencia
+    # No se puede tener mas publicaciones mas que la capacidad
 
     # metodos
     # conocer la capacidad de la biblioteca (listo)

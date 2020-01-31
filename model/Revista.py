@@ -53,6 +53,6 @@ class Revista(Publicacion):
         """
         Metodo con sobreescritura para visualizar los datos del objeto
 
-        :return: String con la informacion del objeto
+        :return: Nada
         """
         print "{} {} {} {}".format(self.referencia,self.titol,self.any,self.nro)

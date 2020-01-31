@@ -5,7 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Biblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Obra.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Obra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Publicacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Publicacion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Revista.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Revista.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Volum.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Volum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjercicioDeFunciones" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -85,6 +87,9 @@
       <updated>1580315933722</updated>
       <workItem from="1580315934936" duration="5086000" />
       <workItem from="1580376697024" duration="6719000" />
+      <workItem from="1580420187524" duration="699000" />
+      <workItem from="1580460596903" duration="840000" />
+      <workItem from="1580483143260" duration="10753000" />
     </task>
     <servers />
   </component>
