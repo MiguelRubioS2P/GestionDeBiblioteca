@@ -50,9 +50,9 @@ class Publicacion():
         """
         Visualizar la informacion del objeto
 
-        :return: Nada
+        :return: String
         """
-        print "{} {}".format(self.referencia,self.titol)
+        return "{} {}".format(self.referencia,self.titol)
 
     # Bloque de sobrescritura de metodos
     def __str__(self):

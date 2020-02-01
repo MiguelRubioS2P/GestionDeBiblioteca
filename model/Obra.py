@@ -53,6 +53,6 @@ class Obra(Publicacion):
         """
         Metodo sobreescrito para mostrar los datos del objeto
 
-        :return: Nada
+        :return: String
         """
-        print "{} {} {} {}".format(self.referencia,self.titol,self.autor,self.nrePags)
+        return "{} {} {} {}".format(self.referencia,self.titol,self.autor,self.nrePags)

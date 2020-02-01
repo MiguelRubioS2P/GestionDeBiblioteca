@@ -1,6 +1,4 @@
 class Biblioteca():
-    # No se debe poder agregar dos publicaciones con la misma referencia
-    # No se puede tener mas publicaciones mas que la capacidad
 
     # metodos
     # conocer la capacidad de la biblioteca (listo)
@@ -22,7 +20,16 @@ class Biblioteca():
         return len(self.publicaciones)
 
     def introducir_publicacion(self,publicacion):
+
+        if(self.get_capacitat() == self.total_elementos()):
+            return False
+
+        for p in self.publicaciones:
+            if(p == publicacion.get_referencia()):
+                return False
+
         self.publicaciones.append(publicacion)
+        return True
 
     def buscar_publicacion(self,referencia):
         for p in self.publicaciones:
@@ -37,4 +44,4 @@ class Biblioteca():
 
     def visualitzar(self):
         for p in self.publicaciones:
-            p.visualitzar()
+            print (p.visualitzar())

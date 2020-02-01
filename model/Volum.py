@@ -36,6 +36,6 @@ class Volum(Obra):
         """
         Metodo para visualizar toda la informacion del objeto Volum
         
-        :return: Nada
+        :return: String
         """
-        print "{} {} {} {} {}".format(self.referencia,self.titol,self.autor,self.nrePags,self.nro)
+        return "{} {} {} {} {}".format(self.referencia,self.titol,self.autor,self.nrePags,self.nro)
