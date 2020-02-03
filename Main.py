@@ -25,7 +25,7 @@ while not (run):
             else:
                 print(publicacion.visualitzar())
         if (pregunta == 5):
-            biblioteca.visualitzar()
+            biblioteca.visualitzar(biblioteca)
         if (pregunta == 6):
             run = True
             print ("Adios, vuelva cuando quiera.")
